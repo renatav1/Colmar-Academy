@@ -1,0 +1,201 @@
+body {
+  color: rgb(94, 78, 78);
+  font-family: Optima, sans-serif;
+
+}
+
+/* Header */
+
+header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 12px;
+  justify-content: space-between;
+  padding-right: 0 58px;
+}
+
+a{
+  color: rgb(158, 152, 152);
+  padding-right: 20px;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  display: flex;
+  height: 60px;
+
+}
+
+.logo span{
+  font-size: 28px;
+  color: rgb(158, 152, 152);
+}
+
+.logo h2 {
+  font-size: 28px;
+
+}
+
+nav a {
+  diplay: flex;
+  font-size: 24px;
+  text-decoration: none;
+
+}
+
+/* Main-banner */
+
+.headline img {
+  width: 90%;
+  margin: 32px 24px;
+  display: flex;
+}
+
+.main-banner {
+  background-color: rgb(205, 202 ,202);
+  display: flex;
+  padding: :
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin-top:
+}
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.text h1 {
+  font-size: 48px;
+}
+
+.text h3 {
+  font-size: 30px;
+}
+
+.box {
+   display: inline-block;
+   width: 400px;
+   height: 75px;
+   margin-right: 40px;
+   background-color: rgb(69, 62, 62);
+}
+
+.box h4 {
+  display: flex;
+  font-size: 24px;
+  color: rgb(247, 246, 246)
+  justify-content: : center;
+}
+
+.box a {
+  display: flex;
+  text-decoration: none;
+
+}
+
+
+
+/* Campus-Info */
+
+.second-banner img {
+  width: 60%;
+}
+
+.container .info {
+  display: flex;
+  margin: 32px 24px;
+}
+
+.second-banner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.campus-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo img {
+  width: 15%;
+  diplay: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info a {
+  color: blue;
+}
+
+/* Learning Section */
+
+.programs h2 {
+  text-align: center;
+  margin: 32px 0;
+  font-size: 42px;
+  padding: 32px;
+}
+
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.photo img {
+  height: 55%;
+  width: 65%;
+}
+
+.start-learning {
+  display: flex;
+  text-align: center;
+  margin: 32px auto;
+}
+
+.programs {
+  display: flex;
+  flex-direction: row;
+  margin: 32px 72px;
+}
+
+
+
+/* Thesis Section */
+
+.thesis-exhibit {
+  display: flex;
+}
+
+.video h2 {
+  text-align: center;
+
+}
+
+.video video {
+  width: 90%;
+  display: flex;
+
+}
