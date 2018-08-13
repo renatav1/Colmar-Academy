@@ -119,7 +119,7 @@ nav a {
 /* Campus-Info */
 
 .second-banner img {
-  width: 81%;
+  width: 89%;
   margin: 32px 24px;
   display: flex;
 }
@@ -152,16 +152,16 @@ nav a {
 }
 
 .image img {
-  width: 45%;
+  width: 65%;
   diplay: flex;
-  padding-left: 24px;
+  padding: 16px;
+  margin-top: 16px;
 
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  width: 65%;
+.campus-info {
+  display: inline-flex;
+  margin-left: 24px;
 }
 
 
@@ -172,6 +172,11 @@ nav a {
 .info h3 {
   font-size: 26px;
 }
+
+.info p {
+  font-size: 18px;
+}
+
 
 .third-banner {
   display: flex;
@@ -203,7 +208,7 @@ nav a {
 }
 
 .programs {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
@@ -228,6 +233,11 @@ nav a {
   display: flex;
 }
 
+.thesis-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .video h2 {
   text-align: center;
 
@@ -239,11 +249,7 @@ nav a {
 
 }
 
-.container .thesis-info {
-  display: flex;
-  flex-direction: column;
 
-}
 
 
 /* Footer */
@@ -271,5 +277,7 @@ span a {
 
 @media only screen and (max-resolution: 150dpi)
 and (max-width: 480px) {
-  
+  header {
+
+  }
 }
