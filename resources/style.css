@@ -241,14 +241,31 @@ nav a {
 
 /* Thesis Section */
 
-.thesis-exhibit {
-  display: flex;
-  
+.thesis-exhibit h2 {
+  font-size: 38px;
+  margin: 32px auto;
+  padding: 32px inherit;
 }
 
-.thesis-info {
-  display: block;
+.video .text {
+  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+.photo {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.thesis-info .info {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .video h2 {
