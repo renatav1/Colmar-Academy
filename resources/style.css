@@ -203,6 +203,7 @@ nav a {
 .start-learning {
   display: flex;
   justify-content: center;
+
 }
 
 .programs {
@@ -242,6 +243,7 @@ nav a {
 
 .thesis-exhibit {
   display: flex;
+  
 }
 
 .thesis-info {
@@ -258,6 +260,11 @@ nav a {
   width: 80%;
   display: flex;
 
+}
+
+.thesis-exhibit .text {
+  display: flex;
+  flex-direction: column;
 }
 
 
