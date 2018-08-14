@@ -189,15 +189,29 @@ nav a {
   background-color: rgb(248, 244, 244);
 }
 
-.start-learning {
-  display: flex;
-  justify-content: center;
-  margin: 32px auto;
+.photo {
+  background-color: white;
+  padding-right: 32px;
 }
+
 
 .start-learning h2 {
   font-size: 38px;
   margin: 32px
+}
+
+.start-learning {
+  display: flex;
+  justify-content: center;
+}
+
+.programs {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 32px 72px;
+  padding-left: 56px;
 }
 
 .programs h2 {
@@ -207,23 +221,20 @@ nav a {
   padding: 32px;
 }
 
-.programs {
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: center;
-}
-
 .photo img {
-  height: 55%;
-  width: 65%;
+  width: 100%;
+  margin-right: 32px;
 }
 
-.programs {
-  display: flex;
-  flex-direction: row;
-  margin: 32px 72px;
+.programs h3 {
+  font-size: 28px;
 }
+
+.programs p {
+  font-size: 18px;
+}
+
+
 
 
 
@@ -234,7 +245,7 @@ nav a {
 }
 
 .thesis-info {
-  display: flex;
+  display: block;
   flex-direction: column;
 }
 
