@@ -253,20 +253,13 @@ nav a {
   justify-content: flex-start;
 }
 
-.photo {
+.fourth-banner {
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
 }
 
-.thesis-info .info {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 .video h2 {
   text-align: center;
